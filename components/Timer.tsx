@@ -8,7 +8,7 @@ export default function Timer() {
   const TOTAL_SECONDS = 30;
   const LAST_TEN_SECONDS = 10;
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col lg:w-2/3 justify-center items-center">
       <h3>Interval Time</h3>
       <Margin className="h-5" />
       <CountdownCircleTimer
